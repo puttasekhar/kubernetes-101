@@ -7,6 +7,23 @@ body {
   color: #222;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border: none;
+  margin-bottom: 1em;
+}
+
+td, th {
+  padding: 1px 5px;
+}
+
+.title-link:hover {
+  text-decoration: none;
+}
+
 header .site-title {
   font-family: 'Myriad Pro', 'Helvetica Neue', Helvetica, Arial, serif;
   font-weight: bold;
@@ -134,12 +151,22 @@ ul.post-list {
   }
 }
 
+.youtube-subscribe {
+  margin-top: 10px;
+}
+
 .youtube-subscribe,
 .book-cover {
   max-width: 225px;
 }
 
 aside#sidebar {
+  font-size: 14px;
+
+  p {
+    margin: 0 0 40px;
+  }
+
   p.repo-owner,
   p.repo-owner a {
     font-weight: normal;

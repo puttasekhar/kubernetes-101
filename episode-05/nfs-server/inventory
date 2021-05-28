@@ -1,0 +1,2 @@
+[nfs]
+192.53.164.204 ansible_user=root
